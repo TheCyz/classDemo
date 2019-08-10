@@ -171,11 +171,8 @@
 		};
 
 		document.onkeydown = function (e) {
-			// console.log(hero.keyMove)
 			hero.keyMove(e.keyCode);
 		}
-
-		
 
 		hero.draw();
 		monster.draw();
